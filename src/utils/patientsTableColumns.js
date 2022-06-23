@@ -19,8 +19,8 @@ export const patientsTableColumns = (navigate) => [
     },
   },
   {
-    name: "lastVisit",
-    label: "Ultimo ingresso",
+    name: "idNum",
+    label: "B.I",
     options: {
       filter: true,
       sort: false,

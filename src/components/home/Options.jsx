@@ -27,10 +27,17 @@ const options = [
       </h1>
     ),
   },
-  // {
-  //   title: "cadastrar",
-  //   icon: <PostAddIcon color="primary" sx={{ fontSize: 80 }} />,
-  // },
+  {
+    title: "Partos",
+    icon: (
+      <h1
+        style={{ fontSize: 60 }}
+        className="has-text-info has-text-weight-bold"
+      >
+        30
+      </h1>
+    ),
+  },
   {
     title: "Utilizadores",
     icon: (
@@ -49,7 +56,7 @@ export default function Options() {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         {options.map((el, index) => (
-          <Grid key={index} item xs={12} md={4}>
+          <Grid key={index} item xs={12} md={3}>
             <Card>
               <Box
                 display="flex"
